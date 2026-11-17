@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "gunbow",
+  "version": "${version}",
+  "name": "Gun Bow Skins",
+  "description": "Client-side: re-skin the bow as 48 real-world firearms (cosmetic only). Press G to cycle.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.gunbow.GunBowClient"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
